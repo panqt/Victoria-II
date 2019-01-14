@@ -1,0 +1,10 @@
+coal_production;煤炭精炼;;;;;;;;;;X
+REMOVE_coal_production_desc;TODO;;;;;;;;;;X
+coal_production_desc;煤炭精炼;;;;;;;;;;X
+coal_factory;煤炭精炼厂;;;;;;;;;;X
+coal_factory_desc;在这个工厂里对粗煤进行精炼;;;;;;;;;;X
+wool_fabric_production;羊毛织布;;;;;;;;;;X
+wool_fabric_production_desc;羊毛织布;;;;;;;;;;X
+REMOVE_wool_fabric_production_desc;TODO;;;;;;;;;;X
+wool_fabric_factory;羊毛纺织厂;;;;;;;;;;X
+wool_fabric_factory_desc;可以使用羊毛织布;;;;;;;;;;X

@@ -1,3 +1,42 @@
+#煤炭精炼厂
+coal_factory = {       
+	template = factory_template
+	input_goods = { 
+		coal = 15		#11.5	total input+maint = 81.5
+	}
+
+	output_goods = coal 		#94 
+	value = 24
+	bonus = {
+		trigger = { trade_goods_in_state = coal }
+		value = 0.125
+	}
+}
+
+#羊毛纺织厂
+wool_fabric_factory = {       
+	template = factory_template
+	input_goods = {     
+		wool = 55		
+		dye = 2			
+	}
+	output_goods = fabric 
+	value = 45			#81
+	bonus = {
+		trigger = { trade_goods_in_state = wool }
+		value = 0.125
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = dye_factory 
+				trade_goods_in_state = dye
+				}
+			}
+		value = 0.125
+	}
+}
+
 
 ### Factories #####################################################################################
 

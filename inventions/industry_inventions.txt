@@ -1,3 +1,33 @@
+#煤炭精炼
+coal_production = {
+	limit = { 
+		mechanized_mining = 1 
+		ai = no
+	}
+	chance = {
+		base = 5
+	}
+	effect = {
+		activate_building = coal_factory 
+	}
+}
+#羊毛纺织
+wool_fabric_production = {
+	limit = { 
+		water_wheel_power = 1 
+		ai = no
+	}
+	chance = {
+		base = 5
+	}
+	effect = {
+		activate_building = wool_fabric_factory 
+	}
+}
+
+
+
+
 #combustion_engine
 daimlers_automobile = {
 	limit = { combustion_engine = 1 }
