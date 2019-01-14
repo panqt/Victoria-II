@@ -1,43 +1,3 @@
-#ÃºÌ¿¾«Á¶³§
-coal_factory = {       
-	template = factory_template
-	input_goods = { 
-		coal = 15		#11.5	total input+maint = 81.5
-	}
-
-	output_goods = coal 		#94 
-	value = 24
-	bonus = {
-		trigger = { trade_goods_in_state = coal }
-		value = 0.125
-	}
-}
-
-#ÑòÃ«·ÄÖ¯³§
-wool_fabric_factory = {       
-	template = factory_template
-	input_goods = {     
-		wool = 55		
-		dye = 2			
-	}
-	output_goods = fabric 
-	value = 45			#81
-	bonus = {
-		trigger = { trade_goods_in_state = wool }
-		value = 0.125
-	}
-	bonus = {
-		trigger = {
-			OR = {
-				has_building = dye_factory 
-				trade_goods_in_state = dye
-				}
-			}
-		value = 0.125
-	}
-}
-
-
 ### Factories #####################################################################################
 
 factory_template = {
@@ -425,6 +385,21 @@ steel_factory = {
 	}
 }
 
+#ç…¤ç‚­ç²¾ç‚¼åŽ‚
+coal_factory = {       
+	template = factory_template
+	input_goods = { 
+		coal = 15		#11.5	total input+maint = 81.5
+	}
+
+	output_goods = coal 		#94 
+	value = 24
+	bonus = {
+		trigger = { trade_goods_in_state = coal }
+		value = 0.125
+	}
+}
+
 artillery_factory = {       
 	template = factory_template
 	input_goods = { 
@@ -687,6 +662,31 @@ fabric_factory = {
 		value = 0.125
 	}
 }
+
+#ç¾Šæ¯›çººç»‡åŽ‚
+wool_fabric_factory = {       
+	template = factory_template
+	input_goods = {     
+		wool = 55		
+		dye = 2			
+	}
+	output_goods = fabric 
+	value = 45			#81
+	bonus = {
+		trigger = { trade_goods_in_state = wool }
+		value = 0.125
+	}
+	bonus = {
+		trigger = {
+			OR = {
+				has_building = dye_factory 
+				trade_goods_in_state = dye
+				}
+			}
+		value = 0.125
+	}
+}
+
 
 cement_factory = {       
 	template = cement_template

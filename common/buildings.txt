@@ -1,45 +1,3 @@
-#煤炭精炼厂
-coal_factory = {
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		machine_parts = 200
-		iron = 200
-		coal = 200
-	}
-	time = 365
-	visibility = yes
-	onmap = no
-	
-	production_type = coal_factory
-	pop_build_factory = yes
-}
-
-#羊毛纺织厂
-wool_fabric_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 99
-	goods_cost =
-	{
-		machine_parts = 20
-		iron = 200
-		cement = 200
-	}
-	time = 365
-	visibility = yes
-	onmap = no
-
-	production_type = wool_fabric_factory
-	pop_build_factory = yes
-}
-
-
 # Do not change tags in here without changing every other reference to them.
 # If adding new buildings, make sure they are uniquely named.
 #
@@ -354,6 +312,27 @@ steel_factory = {
 	pop_build_factory = yes
 }
 
+#煤炭精炼厂
+coal_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 200
+		iron = 200
+		coal = 200
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	production_type = coal_factory
+	pop_build_factory = yes
+}
+
 artillery_factory = {
 	type = factory
 
@@ -613,6 +592,27 @@ fabric_factory = {
 	production_type = fabric_factory
 	pop_build_factory = yes
 }
+
+#羊毛纺织厂
+wool_fabric_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 20
+		iron = 200
+		cement = 200
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+
+	production_type = wool_fabric_factory
+	pop_build_factory = yes
+}
+
 
 cement_factory = {
 	type = factory
