@@ -655,7 +655,7 @@ pops = {
 
 	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
 	
-	NATIONAL_FOCUS_DIVIDER = 400000.0,
+	NATIONAL_FOCUS_DIVIDER = 400000.0, --1个焦点需要的主流人口
 	
 	POP_SAVINGS = 0.018,
 	
@@ -724,8 +724,8 @@ ai =
 	PEACE_ALLY_WAR_EXHAUSTION_MULT = 1.0, -- Multiplies PEACE_WAR_EXHAUSTION_FACTOR for allies in a war
 	PEACE_ALLY_WAR_DIRECTION_MULT = 0, -- Multiplies PEACE_WAR_DIRECTION_FACTOR for allies in a war
 	PEACE_ALLY_FORCE_BALANCE_MULT = 0, -- Multiplies PEACE_FORCE_BALANCE_FACTOR for allies in a war
-	AGGRESSION_BASE = 5, -- general AI aggression
-	AGGRESSION_UNCIV_BONUS = 10, -- additional AI civ aggression against uncivs
+	AGGRESSION_BASE = 50, -- AI攻击性
+	AGGRESSION_UNCIV_BONUS = 100, -- 对未开化国家攻击性加成
 	FLEET_SIZE = 30, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MAX_FLEETS = 10, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)

@@ -1,3 +1,38 @@
+#民主灯塔buff
+the_beacon_of_democratic1 = {
+	global_assimilation_rate = 0.5 #100% 同化速度
+	icon = 15
+}
+#民主灯塔buff
+the_beacon_of_democratic2 = {
+	global_immigrant_attract = 0.2	#30% 移民吸引力
+	icon = 15
+}
+#民主灯塔buff
+the_beacon_of_democratic3 = {
+	prestige = 0.4 #每月0.4威望
+}
+
+#婴儿潮
+the_baby_boom = {
+	global_population_growth = 0.020  #0.2%
+}
+
+#教育效率
+add_education_efficiency = {
+	education_efficiency_modifier = 0.50
+}
+
+#研究点
+add_research_points = {
+	research_points = 3
+}
+
+#消恶名buff
+badboy_buff = {
+	badboy = -1
+}
+
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################

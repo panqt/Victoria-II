@@ -1,0 +1,39 @@
+party = {
+	name = "state_capitalism_c" #国家资本主义
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+
+	ideology = conservative #保守党
+	
+	economic_policy = state_capitalism #国家资本主义
+	trade_policy = protectionism #保护主义
+	religious_policy = pro_atheism #无神论
+	citizenship_policy = full_citizenship #完整公民权
+	war_policy = jingoism #沙文主义
+}
+party = {
+	name = "interventionism_c" #干涉主义
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+
+	ideology = liberal #自由党
+	
+	economic_policy = interventionism #干涉主义
+	trade_policy = free_trade #自由贸易
+	religious_policy = pro_atheism #无神论
+	citizenship_policy = full_citizenship #完整公民权
+	war_policy = jingoism #沙文主义
+}
+party = {
+	name = "planned_economy_c" #计划经济
+	start_date = 1800.1.1
+	end_date = 2000.1.1
+
+	ideology = socialist #社会主义党
+	
+	economic_policy = planned_economy #计划主义
+	trade_policy = protectionism #保护主义
+	religious_policy = pro_atheism #无神论
+	citizenship_policy = full_citizenship #完整公民权
+	war_policy = jingoism #沙文主义
+}

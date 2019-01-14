@@ -1,0 +1,9 @@
+my_colonial = {
+limit = { ai = no } 
+chance = {
+base = 100
+}
+effect = {
+max_national_focus = 44 #最多焦点数 
+} 
+}

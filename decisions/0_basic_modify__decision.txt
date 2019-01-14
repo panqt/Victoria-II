@@ -1,0 +1,18 @@
+#自定义决议
+
+
+political_decisions = { #人口决议
+	custom_jueyi = {
+		alert = no
+		potential = {
+		}
+		allow = {
+		}
+		effect = {
+			country_event ={id=323232}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

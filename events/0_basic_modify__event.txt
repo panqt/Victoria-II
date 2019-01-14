@@ -1,0 +1,356 @@
+#自定义事件
+
+country_event = {
+	id = 323232 
+	is_triggered_only = yes 
+	title = "自定义事件"
+	desc = "自定义事件"
+	picture = "fire" 
+	
+	option = {
+		name = "减少世界人口"
+		any_country = { 
+			any_pop = { 
+				reduce_pop = 0.7
+			}
+		}
+	}
+	
+	option = {
+		name = "减少本国人口"
+		any_pop = { 
+			reduce_pop = 0.7
+		}
+	}
+	
+	option = {
+		name = "增加本国人口"
+		any_pop = { 
+			reduce_pop = 1.3
+		}
+	}
+	
+	option = {
+		name = "增加主流人口"
+		any_pop = {
+			limit = {
+				is_primary_culture = YES 
+			}
+			reduce_pop = 1.3
+		}
+	}
+	
+	option = {
+		name = "减少非主流人口"
+		any_pop = {
+			limit = {
+				is_primary_culture = NO 
+			}
+			reduce_pop = 0.7
+		}
+	}
+	
+	option = {
+		name = "同化速度"
+		add_country_modifier = {
+			name = the_beacon_of_democratic1
+			duration = -1
+		}
+	}
+	option = {
+		name = "移民吸引力"
+		add_country_modifier = {
+			name = the_beacon_of_democratic2
+			duration = -1
+		}
+	}
+	option = {
+		name = "威望buff"
+		add_country_modifier = {
+			name = the_beacon_of_democratic3
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "婴儿潮"
+		add_country_modifier = {
+			name = the_baby_boom
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "加教育效率"
+		add_country_modifier = {
+			name = add_education_efficiency
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "加研究点"
+		add_country_modifier = {
+			name = add_research_points
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "消恶名buff"
+		add_country_modifier = {
+			name = badboy_buff
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "去掉buff"
+		remove_country_modifier = the_beacon_of_democratic1
+		remove_country_modifier = the_beacon_of_democratic2
+		remove_country_modifier = the_beacon_of_democratic3
+		remove_country_modifier = the_baby_boom
+		remove_country_modifier = add_education_efficiency
+		remove_country_modifier = add_research_points
+		remove_country_modifier = badboy_buff
+	}
+	
+	option = {
+		name = "消恶名"
+		badboy = -10
+	}
+	
+	option = {
+		name = "消斗争"
+		any_pop = {
+			militancy = -2
+		}
+	}
+	
+	option = {
+		name = "加斗争"
+		any_pop = {
+			militancy = 2
+		}
+	}
+	
+	option = {
+		name = "去掉他国核心"
+		any_owned={
+			remove_core=ALB
+			remove_core=BOS
+			remove_core=BUL
+			remove_core=CRO
+			remove_core=CYP
+			remove_core=HND
+			remove_core=GRE
+			remove_core=MOL
+			remove_core=MON
+			remove_core=ROM
+			remove_core=SER
+			remove_core=TUR
+			remove_core=WAL
+			remove_core=SWI
+			remove_core=SLO
+			remove_core=AUS
+			remove_core=BOH
+			remove_core=DZG
+			remove_core=KRA
+			remove_core=CRI
+			remove_core=EST
+			remove_core=HUN
+			remove_core=LIT
+			remove_core=LAT
+			remove_core=POL
+			remove_core=RUS
+			remove_core=SLV
+			remove_core=RUT
+			remove_core=SIE
+			remove_core=UKR
+			remove_core=GER
+			remove_core=NGF
+			remove_core=SGF
+			remove_core=BAD
+			remove_core=BAV
+			remove_core=BRA
+			remove_core=BRE
+			remove_core=FRM
+			remove_core=HAM
+			remove_core=HAN
+			remove_core=HES
+			remove_core=HEK
+			remove_core=HOL
+			remove_core=LUB
+			remove_core=LUX
+			remove_core=OLD
+			remove_core=PRU
+			remove_core=SAX
+			remove_core=SCH
+			remove_core=WUR
+			remove_core=COB
+			remove_core=LIP
+			remove_core=MEC
+			remove_core=ITA
+			remove_core=LOM
+			remove_core=PAR
+			remove_core=MOD
+			remove_core=PAP
+			remove_core=SAR
+			remove_core=SIC
+			remove_core=TUS
+			remove_core=VEN
+			remove_core=DEN
+			remove_core=FIN
+			remove_core=NOR
+			remove_core=SCA
+			remove_core=SWE
+			remove_core=BEL
+			remove_core=CAT
+			remove_core=ENG
+			remove_core=FLA
+			remove_core=WLL
+			remove_core=FRA
+			remove_core=IRE
+			remove_core=NET
+			remove_core=POR
+			remove_core=SCO
+			remove_core=SPA
+			remove_core=PER
+			remove_core=NEJ
+			remove_core=AFG
+			remove_core=EGY
+			remove_core=KHI
+			remove_core=BUK
+			remove_core=KOK
+			remove_core=OMA
+			remove_core=YEM
+			remove_core=ABU
+			remove_core=TRA
+			remove_core=MYS
+			remove_core=HYD
+			remove_core=NAG
+			remove_core=BAS
+			remove_core=ORI
+			remove_core=BUN
+			remove_core=AWA
+			remove_core=GWA
+			remove_core=BHO
+			remove_core=IND
+			remove_core=JAI
+			remove_core=MEW
+			remove_core=JOD
+			remove_core=BER
+			remove_core=KUT
+			remove_core=SIN
+			remove_core=MAK
+			remove_core=KAL
+			remove_core=JAS
+			remove_core=BIK
+			remove_core=PAN
+			remove_core=SHI
+			remove_core=LAD
+			remove_core=KAS
+			remove_core=NEP
+			remove_core=SIK
+			remove_core=BHU
+			remove_core=ETH
+			remove_core=LIB
+			remove_core=MOR
+			remove_core=TRI
+			remove_core=SOK
+			remove_core=ZUL
+			remove_core=SAF
+			remove_core=MAD
+			remove_core=CHI
+			remove_core=JAP
+			remove_core=KOR
+			remove_core=TIB
+			remove_core=SIA
+			remove_core=CAM
+			remove_core=BUR
+			remove_core=DAI
+			remove_core=BRU
+			remove_core=BAL
+			remove_core=JOH
+			remove_core=JAV
+			remove_core=AST
+			remove_core=NZL
+			remove_core=HAW
+			remove_core=USA
+			remove_core=CSA
+			remove_core=CAN
+			remove_core=TEX
+			remove_core=CAL
+			remove_core=COL
+			remove_core=NEN
+			remove_core=MEX
+			remove_core=CUB
+			remove_core=DOM
+			remove_core=HAI
+			remove_core=UCA
+			remove_core=PNM
+			remove_core=HON
+			remove_core=ELS
+			remove_core=GUA
+			remove_core=NIC
+			remove_core=COS
+			remove_core=DES
+			remove_core=QUE
+			remove_core=MTC
+			remove_core=VNZ
+			remove_core=BRZ
+			remove_core=URU
+			remove_core=PRG
+			remove_core=ARG
+			remove_core=CHL
+			remove_core=PEU
+			remove_core=BOL
+			remove_core=CLM
+			remove_core=ATJ
+			remove_core=HDJ
+			remove_core=ECU
+			remove_core=TUN
+			remove_core=NAL
+			remove_core=ORA
+			remove_core=TRN
+			remove_core=LUA
+			remove_core=WIA
+			remove_core=NEW
+			remove_core=ZAN
+			remove_core=NAS
+			remove_core=ANH
+			remove_core=WEI
+			remove_core=MEI
+			remove_core=MAN
+			remove_core=CRE
+			remove_core=ION
+			remove_core=TRE
+			remove_core=ARM
+			remove_core=GEO
+			remove_core=CHE
+			remove_core=MUG
+			remove_core=LUC
+			remove_core=KUK
+			remove_core=CZH
+			remove_core=YUG
+			remove_core=AZB
+			remove_core=IRQ
+			remove_core=MGL
+			remove_core=PHI
+			remove_core=MCK
+			remove_core=GXI
+			remove_core=SXI
+			remove_core=YNN
+			remove_core=XBI
+			remove_core=XIN
+			remove_core=REB
+			remove_core=YES
+			remove_core=AND
+			remove_core=REQ
+			remove_core=WON
+			remove_core=HAS
+			remove_core=KPH
+			add_core = THIS
+		}
+	}
+}
