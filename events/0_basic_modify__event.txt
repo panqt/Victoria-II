@@ -1,14 +1,14 @@
-#è‡ªå®šä¹‰äº‹ä»¶
+#×Ô¶¨ÒåÊÂ¼ş
 
 country_event = {
 	id = 323232 
 	is_triggered_only = yes 
-	title = "è‡ªå®šä¹‰äº‹ä»¶"
-	desc = "è‡ªå®šä¹‰äº‹ä»¶"
+	title = "×Ô¶¨ÒåÊÂ¼ş"
+	desc = "×Ô¶¨ÒåÊÂ¼ş"
 	picture = "fire" 
 	
 	option = {
-		name = "å‡å°‘ä¸–ç•Œäººå£"
+		name = "¼õÉÙÊÀ½çÈË¿Ú"
 		any_country = { 
 			any_pop = { 
 				reduce_pop = 0.7
@@ -17,21 +17,21 @@ country_event = {
 	}
 	
 	option = {
-		name = "å‡å°‘æœ¬å›½äººå£"
+		name = "¼õÉÙ±¾¹úÈË¿Ú"
 		any_pop = { 
 			reduce_pop = 0.7
 		}
 	}
 	
 	option = {
-		name = "å¢åŠ æœ¬å›½äººå£"
+		name = "Ôö¼Ó±¾¹úÈË¿Ú"
 		any_pop = { 
 			reduce_pop = 1.3
 		}
 	}
 	
 	option = {
-		name = "å¢åŠ ä¸»æµäººå£"
+		name = "Ôö¼ÓÖ÷Á÷ÈË¿Ú"
 		any_pop = {
 			limit = {
 				is_primary_culture = YES 
@@ -41,7 +41,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "å‡å°‘éä¸»æµäººå£"
+		name = "¼õÉÙ·ÇÖ÷Á÷ÈË¿Ú"
 		any_pop = {
 			limit = {
 				is_primary_culture = NO 
@@ -51,21 +51,21 @@ country_event = {
 	}
 	
 	option = {
-		name = "åŒåŒ–é€Ÿåº¦"
+		name = "Í¬»¯ËÙ¶È"
 		add_country_modifier = {
 			name = the_beacon_of_democratic1
 			duration = -1
 		}
 	}
 	option = {
-		name = "ç§»æ°‘å¸å¼•åŠ›"
+		name = "ÒÆÃñÎüÒıÁ¦"
 		add_country_modifier = {
 			name = the_beacon_of_democratic2
 			duration = -1
 		}
 	}
 	option = {
-		name = "å¨æœ›buff"
+		name = "ÍşÍûbuff"
 		add_country_modifier = {
 			name = the_beacon_of_democratic3
 			duration = -1
@@ -73,7 +73,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "å©´å„¿æ½®"
+		name = "Ó¤¶ù³±"
 		add_country_modifier = {
 			name = the_baby_boom
 			duration = -1
@@ -81,7 +81,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "åŠ æ•™è‚²æ•ˆç‡"
+		name = "¼Ó½ÌÓıĞ§ÂÊ"
 		add_country_modifier = {
 			name = add_education_efficiency
 			duration = -1
@@ -89,7 +89,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "åŠ ç ”ç©¶ç‚¹"
+		name = "¼ÓÑĞ¾¿µã"
 		add_country_modifier = {
 			name = add_research_points
 			duration = -1
@@ -97,7 +97,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "æ¶ˆæ¶åbuff"
+		name = "Ïû¶ñÃûbuff"
 		add_country_modifier = {
 			name = badboy_buff
 			duration = -1
@@ -105,7 +105,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "å»æ‰buff"
+		name = "È¥µôbuff"
 		remove_country_modifier = the_beacon_of_democratic1
 		remove_country_modifier = the_beacon_of_democratic2
 		remove_country_modifier = the_beacon_of_democratic3
@@ -116,26 +116,26 @@ country_event = {
 	}
 	
 	option = {
-		name = "æ¶ˆæ¶å"
+		name = "Ïû¶ñÃû"
 		badboy = -10
 	}
 	
 	option = {
-		name = "æ¶ˆæ–—äº‰"
+		name = "Ïû¶·Õù"
 		any_pop = {
 			militancy = -2
 		}
 	}
 	
 	option = {
-		name = "åŠ æ–—äº‰"
+		name = "¼Ó¶·Õù"
 		any_pop = {
 			militancy = 2
 		}
 	}
 	
 	option = {
-		name = "å»æ‰ä»–å›½æ ¸å¿ƒ"
+		name = "È¥µôËû¹úºËĞÄ"
 		any_owned={
 			remove_core=ALB
 			remove_core=BOS
