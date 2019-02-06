@@ -255,6 +255,20 @@ electric_gear_factory = {
 		value = 0.05
 	}
 }
+#Ïð½º¹¤³§
+rubber_factory = {       
+	template = factory_template
+	input_goods = { 
+		coal = 10		#11.5	total input+maint = 81.5
+	}
+
+	output_goods = rubber 		#94 
+	value = 4.3
+	bonus = {
+		trigger = { trade_goods_in_state = coal }
+		value = 0.125
+	}
+}
 
 machine_parts_factory = {       
 	template = factory_template

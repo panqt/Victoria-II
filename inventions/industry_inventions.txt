@@ -1,3 +1,23 @@
+#橡胶厂
+rubber_production = {
+	limit = { 
+		electricity = 1 
+		ai = no
+	}
+	chance = {
+		base = 2
+		modifier = {
+			factor = -6
+			NOT = {
+				invention = edison_light_bulb
+			}
+		}
+	}
+	effect = {
+		activate_building = rubber_factory 
+	}
+}
+
 #铁厂
 iron_production = {
 	limit = { 
