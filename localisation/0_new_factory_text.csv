@@ -8,3 +8,5 @@ wool_fabric_production_desc;羊毛织布;;;;;;;;;;X
 REMOVE_wool_fabric_production_desc;TODO;;;;;;;;;;X
 wool_fabric_factory;羊毛纺织厂;;;;;;;;;;X
 wool_fabric_factory_desc;可以使用羊毛织布;;;;;;;;;;X
+iron_factory;铁厂;;;;;;;;;;X
+iron_factory_desc;可以使用铁厂;;;;;;;;;;X

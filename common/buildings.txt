@@ -332,6 +332,26 @@ coal_factory = {
 	production_type = coal_factory
 	pop_build_factory = yes
 }
+#铁厂
+iron_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 200
+		iron = 200
+		coal = 200
+	}
+	time = 90
+	visibility = yes
+	onmap = no
+	
+	production_type = iron_factory
+	pop_build_factory = yes
+}
 
 artillery_factory = {
 	type = factory

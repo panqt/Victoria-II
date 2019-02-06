@@ -385,7 +385,7 @@ steel_factory = {
 	}
 }
 
-#ç…¤ç‚­ç²¾ç‚¼åŽ‚
+#ÃºÌ¿¾«Á¶³§‚
 coal_factory = {       
 	template = factory_template
 	input_goods = { 
@@ -396,6 +396,24 @@ coal_factory = {
 	value = 24
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
+		value = 0.125
+	}
+}
+iron_factory = {       
+	template = factory_template
+	input_goods = { 
+		coal = 3		#11.5	total input+maint = 81.5
+		iron = 15
+	}
+
+	output_goods = iron 		#94 
+	value = 27
+	bonus = {
+		trigger = { trade_goods_in_state = coal }
+		value = 0.125
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = iron }
 		value = 0.125
 	}
 }

@@ -1,3 +1,16 @@
+#铁厂
+iron_production = {
+	limit = { 
+		mechanized_mining = 1 
+		ai = no
+	}
+	chance = {
+		base = 5
+	}
+	effect = {
+		activate_building = iron_factory 
+	}
+}
 #煤炭精炼
 coal_production = {
 	limit = { 
