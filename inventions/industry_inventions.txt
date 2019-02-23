@@ -5,7 +5,7 @@ rubber_production = {
 		ai = no
 	}
 	chance = {
-		base = 2
+		base = 6
 		modifier = {
 			factor = -6
 			NOT = {

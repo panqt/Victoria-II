@@ -142,6 +142,7 @@ electric_gear_factory = {
 	pop_build_factory = yes
 	strategic_factory = yes
 }
+# 橡胶厂
 rubber_factory = {
 	type = factory
 
@@ -159,7 +160,7 @@ rubber_factory = {
 	onmap = no
 
 	production_type = rubber_factory
-	pop_build_factory = yes
+	pop_build_factory = no
 	strategic_factory = yes
 }
 
@@ -350,7 +351,7 @@ coal_factory = {
 	onmap = no
 	
 	production_type = coal_factory
-	pop_build_factory = yes
+	pop_build_factory = no
 }
 #铁厂
 iron_factory = {
@@ -370,7 +371,7 @@ iron_factory = {
 	onmap = no
 	
 	production_type = iron_factory
-	pop_build_factory = yes
+	pop_build_factory = no
 }
 
 artillery_factory = {
