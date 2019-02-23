@@ -105,6 +105,14 @@ country_event = {
 	}
 	
 	option = {
+		name = "外交影响力buff"
+		add_country_modifier = {
+			name = influence_buff
+			duration = -1
+		}
+	}
+	
+	option = {
 		name = "去掉buff"
 		remove_country_modifier = the_beacon_of_democratic1
 		remove_country_modifier = the_beacon_of_democratic2
@@ -113,6 +121,7 @@ country_event = {
 		remove_country_modifier = add_education_efficiency
 		remove_country_modifier = add_research_points
 		remove_country_modifier = badboy_buff
+		remove_country_modifier = influence_buff
 	}
 	
 	option = {

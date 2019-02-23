@@ -17,3 +17,5 @@ add_research_points;研究点;;;;;;;;;;X
 add_research_points_desc;研究点;;;;;;;;;X
 badboy_buff;消恶名buff;;;;;;;;;;X
 badboy_buff_desc;消恶名buff;;;;;;;;;X
+influence_buff;外交影响力buff;;;;;;;;;;X
+influence_buff_desc;外交影响力buff;;;;;;;;;X
